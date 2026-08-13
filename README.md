@@ -21,37 +21,6 @@ Rather than relying entirely on cloud processing, the project explores how sensi
 - Measure latency, memory usage, and system performance
 - Explore the foundations of edge AI and computer vision
 
-## Planned System Architecture
-
-```text
-             Camera
-                |
-                v
-        +---------------+
-        |     ESP32     |
-        |               |
-        |  Event Engine |
-        +-------+-------+
-                |
-       +--------+--------+
-       |        |        |
-       v        v        v
-     PIR    IR Sensor  Remote
-       |        |        |
-       +--------+--------+
-                |
-                v
-          Sensor Fusion
-                |
-                v
-        Decision / Control
-                |
-        +-------+-------+
-        |       |       |
-        v       v       v
-      Servo  Display  Buzzer
-```text
-
 ## **Hardware**
 The project is being developed using components from an existing ESP32 development kit, including:
 
@@ -214,3 +183,36 @@ Through this project I aim to strengthen my understanding of:
 - [ ] Edge image processing
 - [ ] Performance benchmarking
 - [ ] Final demonstration
+
+
+## Planned System Architecture
+
+```text
+             Camera
+                |
+                v
+        +---------------+
+        |     ESP32     |
+        |               |
+        |  Event Engine |
+        +-------+-------+
+                |
+       +--------+--------+
+       |        |        |
+       v        v        v
+     PIR    IR Sensor  Remote
+       |        |        |
+       +--------+--------+
+                |
+                v
+          Sensor Fusion
+                |
+                v
+        Decision / Control
+                |
+        +-------+-------+
+        |       |       |
+        v       v       v
+      Servo  Display  Buzzer
+
+
