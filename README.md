@@ -6,7 +6,7 @@
 
 ## Overview
 
-The ESP32 Edge Vision Station is an embedded systems project built around an ESP32 microcontroller and camera. The goal is to develop a small-scale edge-perception platform capable of detecting environmental events, processing information locally, and responding through physical actuators.
+The **ESP32 Edge Vision Station** is an embedded systems project built around an ESP32 microcontroller and camera. The goal is to develop a small-scale edge-perception platform capable of detecting environmental events, processing information locally, and responding through physical actuators.
 
 Rather than relying entirely on cloud processing, the project explores how sensing, decision-making, and basic computer vision can be performed directly at the edge under constraints in processing power, memory, latency, and connectivity.
 
