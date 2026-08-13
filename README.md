@@ -50,6 +50,7 @@ Rather than relying entirely on cloud processing, the project explores how sensi
         |       |       |
         v       v       v
       Servo  Display  Buzzer
+```text
 
 ## **Hardware**
 The project is being developed using components from an existing ESP32 development kit, including:
