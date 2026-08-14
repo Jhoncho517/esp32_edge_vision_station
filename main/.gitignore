@@ -1,0 +1,18 @@
+# ESP-IDF build output
+build/
+
+# Python environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# VS Code local settings
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
