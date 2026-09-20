@@ -1,0 +1,151 @@
+Command: C:\Espressif\tools\python\v6.0.2\venv\Scripts\python.exe C:\esp\v6.0.2\esp-idf\tools/idf_monitor.py -p COM6 -b 115200 --toolchain-prefix xtensa-esp32-elf- --target esp32 --revision 0 C:\Users\Jasson\Desktop\Edge_Vision_Station\build\edge_vision_station.elf C:\Users\Jasson\Desktop\Edge_Vision_Station\build\bootloader\bootloader.elf --force-color -m 'C:\Espressif\tools\python\v6.0.2\venv\Scripts\python.exe' 'C:\esp\v6.0.2\esp-idf\tools\idf.py' '-p' 'COM6'
+ets Ju�ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0040,len:6272
+load:0x40078000,len:15820
+load:0x40080400,len:3920
+entry 0x40080644
+[0;32mI (27) boot: ESP-IDF v6.0.2 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time Aug 15 2026 02:07:06[0m
+[0;32mI (28) boot: Multicore bootloader[0m
+[0;32mI (29) boot: chip revision: v3.1[0m
+[0;32mI (32) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (35) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (39) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (42) boot: Enabling RNG early entropy source...[0m
+[0;32mI (47) boot: Partition Table:[0m
+[0;32mI (49) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (56) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (62) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (69) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (75) boot: End of partition table[0m
+[0;32mI (79) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=08e70h ( 36464) map[0m
+[0;32mI (99) esp_image: segment 1: paddr=00018e98 vaddr=3ffb0000 size=02a2ch ( 10796) load[0m
+[0;32mI (104) esp_image: segment 2: paddr=0001b8cc vaddr=40080000 size=0474ch ( 18252) load[0m
+[0;32mI (111) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=0d988h ( 55688) map[0m
+[0;32mI (132) esp_image: segment 4: paddr=0002d9b0 vaddr=4008474c size=06700h ( 26368) load[0m
+[0;32mI (143) esp_image: segment 5: paddr=000340b8 vaddr=50000000 size=00028h (    40) load[0m
+[0;32mI (149) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (149) boot: Disabling RNG early entropy source...[0m
+[0;32mI (161) cpu_start: Multicore app[0m
+[0;32mI (169) cpu_start: GPIO 3 and 1 are used as console UART I/O pins[0m
+[0;32mI (169) cpu_start: Pro cpu start user code[0m
+[0;32mI (169) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (171) app_init: Application information:[0m
+[0;32mI (175) app_init: Project name:     edge_vision_station[0m
+[0;32mI (180) app_init: App version:      1c77ff6-dirty[0m
+[0;32mI (184) app_init: Compile time:     Aug 15 2026 11:41:06[0m
+[0;32mI (189) app_init: ELF file SHA256:  cefc7efd3...[0m
+[0;32mI (194) app_init: ESP-IDF:          v6.0.2[0m
+[0;32mI (197) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (201) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (205) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (209) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (216) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (220) heap_init: At 3FFB33D8 len 0002CC28 (179 KiB): DRAM[0m
+[0;32mI (226) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (231) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (237) heap_init: At 4008AE4C len 000151B4 (84 KiB): IRAM[0m
+[0;33mW (243) spi_flash: Detected boya flash chip but using generic driver. For optimal functionality, enable `SPI_FLASH_SUPPORT_BOYA_CHIP` in menuconfig[0m
+[0;32mI (255) spi_flash: detected chip: generic[0m
+[0;32mI (258) spi_flash: flash io: dio[0m
+[0;33mW (261) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (275) main_task: Started on CPU0[0m
+[0;32mI (275) main_task: Calling app_main()[0m
+
+====================================
+ ESP32 EDGE VISION STATION
+ Event Driven Firmware
+====================================
+System ready.
+IR  -> GPIO27
+PIR -> GPIO26 interrupt
+[0;32mI (295) main_task: Returned from app_main()[0m
+[38042 ms] OBSTACLE_DETECTED
+[39842 ms] OBSTACLE_DETECTED
+[40092 ms] OBSTACLE_DETECTED
+[40942 ms] OBSTACLE_DETECTED
+[41642 ms] OBSTACLE_DETECTED
+[43892 ms] OBSTACLE_DETECTED
+[44742 ms] OBSTACLE_DETECTED
+[46792 ms] OBSTACLE_DETECTED
+[47692 ms] OBSTACLE_DETECTED
+[118692 ms] OBSTACLE_DETECTED
+[119642 ms] OBSTACLE_DETECTED
+[120092 ms] OBSTACLE_DETECTED
+[120242 ms] OBSTACLE_DETECTED
+[120892 ms] OBSTACLE_DETECTED
+[121092 ms] OBSTACLE_DETECTED
+[121342 ms] OBSTACLE_DETECTED
+[121542 ms] OBSTACLE_DETECTED
+[186192 ms] OBSTACLE_DETECTED
+[186942 ms] OBSTACLE_DETECTED
+[187442 ms] OBSTACLE_DETECTED
+[187592 ms] OBSTACLE_DETECTED
+[218692 ms] OBSTACLE_DETECTED
+[219142 ms] OBSTACLE_DETECTED
+[219392 ms] OBSTACLE_DETECTED
+[219642 ms] OBSTACLE_DETECTED
+[220192 ms] OBSTACLE_DETECTED
+[286092 ms] OBSTACLE_DETECTED
+[314992 ms] OBSTACLE_DETECTED
+[317042 ms] OBSTACLE_DETECTED
+[381042 ms] OBSTACLE_DETECTED
+[384792 ms] OBSTACLE_DETECTED
+[385742 ms] OBSTACLE_DETECTED
+[389492 ms] OBSTACLE_DETECTED
+[394042 ms] OBSTACLE_DETECTED
+[395342 ms] OBSTACLE_DETECTED
+[396842 ms] OBSTACLE_DETECTED
+[397442 ms] OBSTACLE_DETECTED
+[401042 ms] OBSTACLE_DETECTED
+[401742 ms] OBSTACLE_DETECTED
+[402292 ms] OBSTACLE_DETECTED
+[402592 ms] OBSTACLE_DETECTED
+[402792 ms] OBSTACLE_DETECTED
+[403242 ms] OBSTACLE_DETECTED
+[404642 ms] OBSTACLE_DETECTED
+[415042 ms] OBSTACLE_DETECTED
+[429242 ms] OBSTACLE_DETECTED
+[430692 ms] OBSTACLE_DETECTED
+[432892 ms] OBSTACLE_DETECTED
+[437142 ms] OBSTACLE_DETECTED
+[537592 ms] OBSTACLE_DETECTED
+[549842 ms] OBSTACLE_DETECTED
+[551992 ms] OBSTACLE_DETECTED
+[553692 ms] OBSTACLE_DETECTED
+[555542 ms] OBSTACLE_DETECTED
+[572542 ms] OBSTACLE_DETECTED
+[574592 ms] OBSTACLE_DETECTED
+[576242 ms] OBSTACLE_DETECTED
+[581842 ms] OBSTACLE_DETECTED
+[582892 ms] OBSTACLE_DETECTED
+[588942 ms] OBSTACLE_DETECTED
+[596342 ms] OBSTACLE_DETECTED
+[1156692 ms] OBSTACLE_DETECTED
+[1162992 ms] OBSTACLE_DETECTED
+[1169692 ms] OBSTACLE_DETECTED
+[1173392 ms] OBSTACLE_DETECTED
+[1174442 ms] OBSTACLE_DETECTED
+[1533892 ms] OBSTACLE_DETECTED
+[1540892 ms] OBSTACLE_DETECTED
+[1555042 ms] OBSTACLE_DETECTED
+[1556542 ms] OBSTACLE_DETECTED
+[1563242 ms] OBSTACLE_DETECTED
+[1565192 ms] OBSTACLE_DETECTED
+[1570992 ms] OBSTACLE_DETECTED
+[2012742 ms] OBSTACLE_DETECTED
+[2020542 ms] OBSTACLE_DETECTED
+����������������������������������������������������������������357842 ms] OBSTACLE_DETECTED
+[2358542 ms] OBSTACLE_DETECTED
+[2358942 ms] OBSTACLE_DETECTED
+[2359092 ms] OBSTACLE_DETECTED
+[2359642 ms] OBSTACLE_DETECTED
+[2359942 ms] OBSTACLE_DETECTED
+[2360092 ms] OBSTACLE_DETECTED
+[2360292 ms] OBSTACLE_DETECTED
+[2360542 ms] OBSTACLE_DETECTED

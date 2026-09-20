@@ -1,0 +1,15 @@
+| Component                       | Purpose                                            | Required?     |
+| ------------------------------- | -------------------------------------------------- | ------------- |
+| **ESP32-S board**               | Main microcontroller / computing                   | ✅ Essential   |
+| **ESP32 Camera extension**      | Camera interface                                   | ✅ Essential   |
+| **ESP32 camera**                | Image acquisition / edge vision                    | ✅ Essential   |
+| **PIR motion sensor**           | Detect movement/events                             | ✅ Essential   |
+| **IR obstacle/line sensor**     | Secondary sensing for sensor fusion                | ✅ Recommended |
+| **Micro servo motor**           | Rotates camera for scanning                        | ✅ Essential   |
+| **Display / 7-segment display** | System status, event count, telemetry              | ✅ Recommended |
+| **IR remote + IR receiver**     | Wireless manual control                            | ✅ Recommended |
+| **Buzzer**                      | Audible event notification                         | ✅ Recommended |
+| **74HC595 shift register**      | Digital I/O / display control                      | ✅ Recommended |
+| **Breadboard**                  | Prototype everything without building an enclosure | ✅ Essential   |
+| **Jumper wires**                | Connect modules                                    | ✅ Essential   |
+| **USB cable**                   | Program/power ESP32                                | ✅ Essential   |
