@@ -51,8 +51,6 @@ The project is being developed using components from an existing ESP32 developme
 * 74HC595 shift register
 * Breadboard and jumper wires
 
-*Note: The moisture sensor is intentionally not part of this project.*
-
 ---
 
 ## **Software**
