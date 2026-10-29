@@ -24,9 +24,9 @@ Rather than relying entirely on cloud processing, the project explores how sensi
 ## **Project Roadmap**
 - [ ] Hardware identification ☑
 - [ ] ESP32 development environment ☑
-- [ ] GPIO bring-up
-- [ ] Sensor integration
-- [ ] Interrupt-driven events
+- [ ] GPIO bring-up ☑
+- [ ] Sensor integration ☑
+- [ ] Interrupt-driven events ☑
 - [ ] Servo/PWM control
 - [ ] IR remote control
 - [ ] Camera integration
